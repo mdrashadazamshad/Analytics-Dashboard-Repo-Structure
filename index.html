@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics Dashboard</title>
+
+  <meta name="description" content="Interactive analytics dashboard for tracking marketing metrics. Built with HTML, CSS, and JavaScript.">
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/components.css">
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <img src="assets/logo.png" alt="Logo" class="logo">
+    <h1>Analytics Dashboard</h1>
+  </header>
+
+  <main>
+    <section class="charts">
+      <h2>Campaign Performance</h2>
+      <canvas id="campaignChart" width="400" height="200"></canvas>
+    </section>
+
+    <section class="tables">
+      <h2>Top Campaigns</h2>
+      <table id="campaignTable">
+        <thead>
+          <tr>
+            <th>Campaign</th>
+            <th>Clicks</th>
+            <th>Impressions</th>
+            <th>CTR (%)</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Analytics Dashboard. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/charts.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
