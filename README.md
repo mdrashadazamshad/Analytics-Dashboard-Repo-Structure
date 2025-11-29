@@ -1,0 +1,2 @@
+# Analytics Dashboard Repo Structure
+A fully functional, interactive Analytics Dashboard designed for digital marketers and businesses to track, visualize, and analyze key performance metrics. Built with JavaScript (React/Vanilla JS), HTML, and CSS, it includes charts, tables, filters, and real-time data integration. Perfect for monitoring ad campaigns, website traffic, conversion rates, and other KPIs in a clean, intuitive interface.
