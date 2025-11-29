@@ -1,0 +1,15 @@
+analytics-dashboard/
+├── index.html
+├── styles/
+│   ├── main.css
+│   └── components.css
+├── scripts/
+│   ├── main.js
+│   └── charts.js
+├── assets/
+│   └── logo.png
+├── data/
+│   └── sample-data.json
+├── README.md
+├── .gitignore
+└── LICENSE
